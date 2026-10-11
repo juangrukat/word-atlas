@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-docker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Node 22
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Type-check and build production app
+        run: npm run build
+      - name: Test real dictionary and API
+        run: npm test
+      - name: Build and start Docker app
+        run: docker compose up --build -d
+      - name: Verify container health and real lookups
+        run: |
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:3000/api/health; then
+              break
+            fi
+            sleep 2
+          done
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          const base = 'http://127.0.0.1:3000';
+          const health = await fetch(`${base}/api/health`);
+          assert.equal(health.status, 200);
+          for (const [word, count] of [['bank', 18], ['run', 57], ['break', 75]]) {
+            const response = await fetch(`${base}/api/lookup?word=${word}`);
+            assert.equal(response.status, 200);
+            assert.equal((await response.json()).totalMeanings, count);
+          }
+          assert.equal((await (await fetch(`${base}/api/stats`)).json()).words, 148730);
+          const response = await fetch(base);
+          assert.equal(response.status, 200);
+          assert.equal(response.headers.get('cache-control'), 'no-cache');
+          const html = await response.text();
+          const script = html.match(/src="([^"]+\.js)"/);
+          assert.ok(script);
+          assert.equal((await fetch(base + script[1])).status, 200);
+          console.log('Docker health, dictionary, ambiguous-word lookups and client asset checks passed.');
+          JS
+      - name: Container logs
+        if: always()
+        run: docker compose logs --no-color
+      - name: Stop test container
+        if: always()
+        run: docker compose down

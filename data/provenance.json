@@ -1,0 +1,20 @@
+{
+  "installer_sha256": "a0097ecbcb875deacb59a2b6b57b5ee01018dc20f2af3920cf1f03cb3d344f61",
+  "source": "User-supplied Visual Thesaurus 3.0.3 Windows installer",
+  "extraction": "Bundled read-only Lucene reader, no application launch",
+  "record_counts": {
+    "synset_records": 117660,
+    "english_records": 548880
+  },
+  "stats": {
+    "words": 148730,
+    "meanings": 117659,
+    "relationships": 377488,
+    "definitions": 117659,
+    "memberships": 206978
+  },
+  "record_sha256": {
+    "en-records.jsonl": "f24c63bf8b4214b4cb32d9cd8c0c098258eed4eef4d827596fab0617a30990b2",
+    "synset-records.jsonl": "c95ce08156de11cd917fa7706171a3244cb7cc06bcee65fec00bc765dce48527"
+  }
+}

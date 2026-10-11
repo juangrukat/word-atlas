@@ -1,0 +1,328 @@
+{
+  "words": [
+    {
+      "word": "run",
+      "meanings": 57,
+      "parts": {
+        "noun": 16,
+        "verb": 41
+      },
+      "initialNodes": 18,
+      "maxNodes": 180,
+      "maxEdges": 218,
+      "largestResponseBytes": 64216
+    },
+    {
+      "word": "set",
+      "meanings": 44,
+      "parts": {
+        "noun": 12,
+        "verb": 25,
+        "adjective": 7
+      },
+      "initialNodes": 15,
+      "maxNodes": 180,
+      "maxEdges": 210,
+      "largestResponseBytes": 61884
+    },
+    {
+      "word": "light",
+      "meanings": 46,
+      "parts": {
+        "noun": 14,
+        "verb": 6,
+        "adjective": 25,
+        "adverb": 1
+      },
+      "initialNodes": 19,
+      "maxNodes": 180,
+      "maxEdges": 191,
+      "largestResponseBytes": 61460
+    },
+    {
+      "word": "right",
+      "meanings": 36,
+      "parts": {
+        "noun": 8,
+        "verb": 4,
+        "adjective": 14,
+        "adverb": 10
+      },
+      "initialNodes": 14,
+      "maxNodes": 167,
+      "maxEdges": 193,
+      "largestResponseBytes": 59174
+    },
+    {
+      "word": "spring",
+      "meanings": 11,
+      "parts": {
+        "noun": 6,
+        "verb": 5
+      },
+      "initialNodes": 25,
+      "maxNodes": 88,
+      "maxEdges": 98,
+      "largestResponseBytes": 26090
+    },
+    {
+      "word": "charge",
+      "meanings": 40,
+      "parts": {
+        "noun": 15,
+        "verb": 25
+      },
+      "initialNodes": 16,
+      "maxNodes": 180,
+      "maxEdges": 229,
+      "largestResponseBytes": 61756
+    },
+    {
+      "word": "pitch",
+      "meanings": 22,
+      "parts": {
+        "noun": 10,
+        "verb": 12
+      },
+      "initialNodes": 17,
+      "maxNodes": 150,
+      "maxEdges": 187,
+      "largestResponseBytes": 46575
+    },
+    {
+      "word": "draw",
+      "meanings": 45,
+      "parts": {
+        "noun": 9,
+        "verb": 36
+      },
+      "initialNodes": 20,
+      "maxNodes": 180,
+      "maxEdges": 223,
+      "largestResponseBytes": 63118
+    },
+    {
+      "word": "break",
+      "meanings": 75,
+      "parts": {
+        "noun": 16,
+        "verb": 59
+      },
+      "initialNodes": 30,
+      "maxNodes": 180,
+      "maxEdges": 212,
+      "largestResponseBytes": 67392
+    },
+    {
+      "word": "strike",
+      "meanings": 27,
+      "parts": {
+        "noun": 6,
+        "verb": 21
+      },
+      "initialNodes": 20,
+      "maxNodes": 169,
+      "maxEdges": 209,
+      "largestResponseBytes": 56522
+    },
+    {
+      "word": "match",
+      "meanings": 19,
+      "parts": {
+        "noun": 9,
+        "verb": 10
+      },
+      "initialNodes": 18,
+      "maxNodes": 129,
+      "maxEdges": 167,
+      "largestResponseBytes": 41832
+    },
+    {
+      "word": "lead",
+      "meanings": 31,
+      "parts": {
+        "noun": 17,
+        "verb": 14
+      },
+      "initialNodes": 17,
+      "maxNodes": 180,
+      "maxEdges": 208,
+      "largestResponseBytes": 57270
+    },
+    {
+      "word": "bat",
+      "meanings": 10,
+      "parts": {
+        "noun": 5,
+        "verb": 5
+      },
+      "initialNodes": 15,
+      "maxNodes": 69,
+      "maxEdges": 78,
+      "largestResponseBytes": 20779
+    },
+    {
+      "word": "bank",
+      "meanings": 18,
+      "parts": {
+        "noun": 10,
+        "verb": 8
+      },
+      "initialNodes": 17,
+      "maxNodes": 112,
+      "maxEdges": 129,
+      "largestResponseBytes": 35801
+    },
+    {
+      "word": "seal",
+      "meanings": 14,
+      "parts": {
+        "noun": 8,
+        "verb": 6
+      },
+      "initialNodes": 14,
+      "maxNodes": 87,
+      "maxEdges": 117,
+      "largestResponseBytes": 28510
+    },
+    {
+      "word": "bass",
+      "meanings": 9,
+      "parts": {
+        "noun": 8,
+        "adjective": 1
+      },
+      "initialNodes": 14,
+      "maxNodes": 62,
+      "maxEdges": 65,
+      "largestResponseBytes": 18444
+    },
+    {
+      "word": "bark",
+      "meanings": 9,
+      "parts": {
+        "noun": 4,
+        "verb": 5
+      },
+      "initialNodes": 11,
+      "maxNodes": 48,
+      "maxEdges": 59,
+      "largestResponseBytes": 15062
+    },
+    {
+      "word": "club",
+      "meanings": 11,
+      "parts": {
+        "noun": 7,
+        "verb": 4
+      },
+      "initialNodes": 25,
+      "maxNodes": 83,
+      "maxEdges": 91,
+      "largestResponseBytes": 25143
+    },
+    {
+      "word": "pen",
+      "meanings": 6,
+      "parts": {
+        "noun": 5,
+        "verb": 1
+      },
+      "initialNodes": 12,
+      "maxNodes": 40,
+      "maxEdges": 41,
+      "largestResponseBytes": 11358
+    },
+    {
+      "word": "cut",
+      "meanings": 70,
+      "parts": {
+        "noun": 20,
+        "verb": 41,
+        "adjective": 9
+      },
+      "initialNodes": 15,
+      "maxNodes": 180,
+      "maxEdges": 191,
+      "largestResponseBytes": 61428
+    },
+    {
+      "word": "play",
+      "meanings": 52,
+      "parts": {
+        "noun": 17,
+        "verb": 35
+      },
+      "initialNodes": 15,
+      "maxNodes": 180,
+      "maxEdges": 227,
+      "largestResponseBytes": 66085
+    },
+    {
+      "word": "make",
+      "meanings": 51,
+      "parts": {
+        "noun": 2,
+        "verb": 49
+      },
+      "initialNodes": 20,
+      "maxNodes": 180,
+      "maxEdges": 238,
+      "largestResponseBytes": 65156
+    },
+    {
+      "word": "hold",
+      "meanings": 45,
+      "parts": {
+        "noun": 9,
+        "verb": 36
+      },
+      "initialNodes": 26,
+      "maxNodes": 180,
+      "maxEdges": 226,
+      "largestResponseBytes": 62868
+    },
+    {
+      "word": "take",
+      "meanings": 44,
+      "parts": {
+        "noun": 2,
+        "verb": 42
+      },
+      "initialNodes": 27,
+      "maxNodes": 180,
+      "maxEdges": 217,
+      "largestResponseBytes": 63712
+    }
+  ],
+  "correctnessRequests": 294,
+  "serialLookupLatencyMs": {
+    "median": 2.7126250000000027,
+    "p95": 6.889874999999961,
+    "max": 8.52333299999998
+  },
+  "concurrent": {
+    "requests": 432,
+    "concurrency": 8,
+    "durationMs": 1316.5099579999999,
+    "requestsPerSecond": 328.14032083455004,
+    "latencyMs": {
+      "median": 26.726208000000042,
+      "p95": 37.20987500000001,
+      "max": 38.98370799999998
+    }
+  },
+  "rateLimiter": {
+    "200": 120,
+    "429": 5
+  },
+  "totalDurationMs": 2118.104917,
+  "processMemory": {
+    "rss": 359989248,
+    "heapTotal": 169639936,
+    "heapUsed": 143688152,
+    "external": 50719813,
+    "arrayBuffers": 47915880
+  },
+  "limits": "In-process Fastify HTTP injection on one local Node process; not a Docker, remote-network, or sustained multi-host benchmark."
+}

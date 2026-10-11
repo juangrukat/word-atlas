@@ -1,0 +1,58 @@
+[
+  {
+    "definitions": 57,
+    "invalidTransforms": 0,
+    "nodes": 77,
+    "word": "run",
+    "wordLabelOverlaps": 0
+  },
+  {
+    "definitions": 75,
+    "invalidTransforms": 0,
+    "nodes": 180,
+    "word": "break",
+    "wordLabelOverlaps": 1
+  },
+  {
+    "definitions": 75,
+    "invalidTransforms": 0,
+    "nodes": 180,
+    "word": "break",
+    "wordLabelOverlaps": 0
+  },
+  {
+    "definitions": 44,
+    "invalidTransforms": 0,
+    "nodes": 180,
+    "word": "set",
+    "wordLabelOverlaps": 0
+  },
+  {
+    "definitions": 46,
+    "invalidTransforms": 0,
+    "nodes": 180,
+    "word": "light",
+    "wordLabelOverlaps": 0
+  },
+  {
+    "definitions": 36,
+    "invalidTransforms": 0,
+    "nodes": 167,
+    "word": "right",
+    "wordLabelOverlaps": 0
+  },
+  {
+    "definitions": 11,
+    "invalidTransforms": 0,
+    "nodes": 88,
+    "word": "spring",
+    "wordLabelOverlaps": 0
+  },
+  {
+    "definitions": 6,
+    "invalidTransforms": 0,
+    "nodes": 19,
+    "word": "spring",
+    "wordLabelOverlaps": 0
+  }
+]

@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+.git
+*.tar.gz
+*.zip
+data/*.building.sqlite
+scripts
+docs
+*.log
