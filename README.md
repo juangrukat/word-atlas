@@ -100,6 +100,6 @@ The original software license is preserved in `data/ORIGINAL-SOFTWARE-LICENSE.tx
 
 This recreation preserves the original visual exploration concept and recovered relationships; it does not claim pixel-for-pixel or numerical equivalence to the desktop engine. Original SDK code, registration flows, remote services, screensaver and proprietary audio playback are not part of the new runtime. The corpus is the recovered 2009 English dataset, not a continually updated dictionary. No server-side user accounts or synchronized word lists are implemented.
 
-The production app and browser interactions were verified directly with Node on this Mac. Docker configuration is supplied, but a Docker engine was not available here to execute a container. Deployment to your own server has not been performed. See `docs/verification.md` for the completed checks.
+The production app and browser interactions were verified directly with Node on this Mac. GitHub CI also passed on Linux: all 19 tests, production build, Docker image build and startup, health checks, ambiguous-word lookups and client asset delivery. [Verified CI run](https://github.com/juangrukat/word-atlas/actions/runs/38148618925). Deployment to your own server has not been performed. See `docs/verification.md` for the completed checks.
 
 Version 1.0.1 includes the ambiguous-word stress-test fixes for route rate limiting and crowded-label separation. See `docs/stress-test.md` for the 24-word test, local load measurements and browser results.

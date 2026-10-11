@@ -35,6 +35,6 @@ Responsive testing used a same-origin 390 × 844 iframe because the browser's vi
 
 The later 24-word stress run and two fixes are documented in `stress-test.md`.
 
-No Docker engine was installed on the host, so image build, container startup and Compose execution have not been verified. Dockerfile/Compose files are provided for the user's server. No remote server deployment was performed. The original desktop application was not run for pixel-level comparisons. This is a modern functional recreation, not a certification of identical physics or complete desktop feature parity.
+The local Mac has no Docker engine, but GitHub CI subsequently verified a fresh clone on Linux: 19 tests, production build, `docker compose up --build -d`, container health, the complete dictionary count, bank/run/break lookups and client JavaScript delivery all passed. The image ran with the Compose read-only filesystem and non-root user. [CI evidence](https://github.com/juangrukat/word-atlas/actions/runs/38148618925). No deployment to the user's own server was performed. The original desktop application was not run for pixel-level comparisons. This is a modern functional recreation, not a certification of identical physics or complete desktop feature parity.
 
 Node 22's built-in SQLite API currently emits an experimental API warning. The app is pinned to the Node 22 line. The recovered lexical corpus is from 2009; its source notices are preserved.

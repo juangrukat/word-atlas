@@ -63,4 +63,4 @@ Browser summaries are in `browser-stress-results.json` in capture order; the pre
 
 ## Practical readability
 
-The full 180-node view is useful as an overview, but its labels become small when fitted into the entire canvas. Read the detail panel, filter parts of speech/relationship types, zoom, or expand individual meanings for close exploration. The graph limit affects the overview, not the full definition list. No Docker or remote-server test was performed.
+The full 180-node view is useful as an overview, but its labels become small when fitted into the entire canvas. Read the detail panel, filter parts of speech/relationship types, zoom, or expand individual meanings for close exploration. The graph limit affects the overview, not the full definition list. This stress run did not include Docker or a remote server. Subsequent [GitHub CI](https://github.com/juangrukat/word-atlas/actions/runs/38148618925) verified Docker build/startup and real lookups on Linux.
